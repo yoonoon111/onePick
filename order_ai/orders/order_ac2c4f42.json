@@ -1,0 +1,20 @@
+{
+  "order_id": "ac2c4f42-932a-4ef2-b866-48bca1dcc30e",
+  "created_at": "2026-06-01T20:13:56.524672",
+  "parse_success": true,
+  "customer": {
+    "name": "김민수",
+    "phone": null,
+    "address": null
+  },
+  "product": {
+    "product_name": "핑크 / 신발 한켤레",
+    "option": "핑크 / 신발 한켤레",
+    "quantity": 1,
+    "price": 180000
+  },
+  "delivery": {
+    "shipping_memo": null
+  },
+  "raw_input": "나 김윤서인데, 핑크색 신발 한켤레 성복동으로 보내줘."
+}
