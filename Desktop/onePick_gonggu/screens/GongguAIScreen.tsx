@@ -103,7 +103,13 @@ export default function GongguAIScreen() {
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
     >
-      <ScrollView contentContainerStyle={styles.scroll}>
+      <ScrollView
+        style={{ flex: 1 }}
+        contentContainerStyle={styles.scroll}
+        keyboardShouldPersistTaps="handled"
+        showsVerticalScrollIndicator={false}
+        bounces={true}
+      >
 
         {/* 헤더 */}
         <View style={styles.header}>
@@ -224,7 +230,7 @@ const styles = StyleSheet.create({
   },
   scroll: {
     padding: 20,
-    paddingBottom: 40,
+    paddingBottom: 100,
   },
 
   // 헤더
@@ -304,6 +310,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 16,
     padding: 20,
+    marginBottom: 40,
     shadowColor: '#000',
     shadowOpacity: 0.05,
     shadowRadius: 8,
